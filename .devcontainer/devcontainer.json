@@ -1,0 +1,18 @@
+{
+    "image": "mcr.microsoft.com/devcontainers/base:jammy",
+    "waitFor": "onCreateCommand",
+    "onCreateCommand": "bin/setup",
+    "updateContentCommand": "",
+    "postCreateCommand": "",
+    "postAttachCommand": {},
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "asciidoctor.asciidoctor-vscode",
+                "redhat.vscode-yaml",
+                "castwide.solargraph",
+                "onnovalkering.vscode-singularity"
+            ]
+        }
+    }
+}
